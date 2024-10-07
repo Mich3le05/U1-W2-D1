@@ -70,12 +70,15 @@ console.log('x')
 myName = 'Mandanici'
 console.log(myName)
 
+// const z = 10
+// z = 50 // <-- errore
+
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 let subtraction = 4 - x
-console.log('risultato della sottrazione', subtraction)
+console.log('risultato della sottrazione', subtraction) // -8
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -86,9 +89,11 @@ console.log('risultato della sottrazione', subtraction)
 let name1 = 'john'
 let name2 = 'John'
 const comparation = name1 === name2
-console.log('verifico la loro uguaglianza', comparation)
+console.log("Il risultato dell'uguaglianza è", comparation)
 
 // EXTRA
 
-const second_comparation = name1 === name2.toLowerCase()
+let second_comparation = name1 === name2.toLowerCase()
 console.log(name1, 'è uguale a', name2, '?', second_comparation)
+
+// il metodo .toLowerCase non modifica la stringa di partenza
