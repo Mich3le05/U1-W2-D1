@@ -87,3 +87,8 @@ let name1 = 'john'
 let name2 = 'John'
 const comparation = name1 === name2
 console.log('verifico la loro uguaglianza', comparation)
+
+// EXTRA
+
+const second_comparation = name1 === name2.toLowerCase()
+console.log(name1, 'è uguale a', name2, '?', second_comparation)
